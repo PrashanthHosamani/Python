@@ -19,4 +19,6 @@ def g(x):
 x = 3
 g(x)
 
+# del g --> used to delete the function
+
 

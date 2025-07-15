@@ -16,3 +16,9 @@ print(8 in l3) #false
 print([7,8] in l3) # true
 
 
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    highest_score = max(arr)
+    remaining_score = [s for s in arr]
+    print(remaining_score)
