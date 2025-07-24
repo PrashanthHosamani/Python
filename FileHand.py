@@ -19,9 +19,6 @@ can used to store texts, img, music,video.
 file=open("helo.txt", "r") #synatx to open a file
 print(file.readline())   # readline gives output of only one line but readlines output will be in the form of list
 
-
-
-
 file.close() #syntax to close a file 
 
 ''''''
