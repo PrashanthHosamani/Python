@@ -36,5 +36,5 @@ def display(**kwargs):
 display(india='delhi', srilanka = 'colombo', nepal = 'kathmandu')
     
 
-        
+         
         
