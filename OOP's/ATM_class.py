@@ -3,7 +3,7 @@
 class Atm:
     
     #constructor (Special function) -> superpower ->
-    def __init__(self):
+    def __init__(self): #self -> obj, through the obj we talk with functions and all (calling) independent parameter
         # print(id(self))
         self.pin = ""
         self.balance = 0
