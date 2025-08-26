@@ -16,8 +16,8 @@ can used to store texts, img, music,video.
 3. APPEND ='''
 
 #Opening file
-file=open("helo.txt", "r") #synatx to open a file
-print(file.readline())   # readline gives output of only one line but readlines output will be in the form of list
+file = open("helo.txt", "w") #synatx to open a file
+file.write('main things') 
 
 file.close() #syntax to close a file 
 
