@@ -17,13 +17,24 @@ modify2(square, 2)
 
 def my_decorator(func):
     def wrapper():
-        print('******************')
+        print('************************')
         func()
         print('************************')
     return wrapper
 
 def hello():
     print('hello')
+
+@my_decorator 
+def display():
+    print("Hey guys")
     
-a = my_decorator(hello)
-a()
+display()
+    
+# a = my_decorator(hello)
+# a()
+
+# b = my_decorator(display)
+# b()
+
+
