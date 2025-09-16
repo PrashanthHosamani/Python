@@ -43,15 +43,15 @@ this-is-a-string"""
 # print(split_and_join(line))
 
 
-# def split_and_join(line):
-#     split = line.split(" ")
-#     join = "-".join(split)
-#     return split and join
+def split_and_join(line):
+    split = line.split(" ")
+    join = "-".join(split)
+    return split and join
     
-#     # write your code here
+    # write your code here
 
-# if __name__ == '__main__':
-#     line = input()
-#     result = split_and_join(line)
-#     print(result)
+if __name__ == '__main__':
+    line = input()
+    result = split_and_join(line)
+    print(result)
     

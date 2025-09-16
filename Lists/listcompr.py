@@ -20,6 +20,14 @@ print(sqnum)
 even_sqr = [x ** 2 for x in range(10) if x % 2 == 0]
 print(even_sqr)
 
+nums = [1,2,3,4,5,6,7,8,9]
 
+list = []
+for i in nums:
+    list.append(i)
+print(list)
+
+list = [n for n in nums]
+print(list)
 
 
