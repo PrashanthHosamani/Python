@@ -1,4 +1,4 @@
-#A decorators in python is a function that receives another function as input and adds some functionality(decoration) to and it and returns it
+#A decorators in python is a function that receives another function as an input and adds some functionality(decoration) to it, and returns it
 #This can happen only because python functions are 1st class citizens
 #There are 2 types of decorators available in python
 
